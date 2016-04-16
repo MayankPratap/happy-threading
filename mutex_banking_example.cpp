@@ -69,7 +69,7 @@ int main(){
     long amount=500000;
     pthread_create(&thread_id1,NULL,deposit,(void*)amount);
    
-    sleep(0.1);
+   // sleep(0.1);
     amount=600000;
     pthread_create(&thread_id2,NULL,withdraw,(void*)amount);
    
